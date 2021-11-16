@@ -1,0 +1,29 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+
+@-moz-document url-prefix("https://www.youtube.com/") {
+    .ytp-button,
+    .ytp-panel-footer {
+        display: none !important;
+    }
+
+    .ytp-play-button,
+    .ytp-mute-button,
+    .ytp-settings-button,
+    .ytp-fullscreen-button,
+    .ytp-chapter-title,
+    .ytp-subtitles-button,
+    .ytp-large-play-button,
+    .ytp-chapter-title-content,
+    .ytp-panel-options,
+    .ytp-panel-title {
+        display: initial !important;
+    }
+
+    #notification-preference-button {
+        display: none !important;
+    }
+
+    .branding-img-container {
+        display: none !important;
+    }
+}
